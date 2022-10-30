@@ -210,7 +210,6 @@ def yes_or_no(content):
 
 
 if __name__ == "__main__":
-    # input_message = "Write first 9 letters in each square cut out, left2right, top2bottom"
     input_message = input("Enter the message to be encrypted: ")
     print_by_step = yes_or_no("Do you want to print the process step by step?")
     print("")
